@@ -170,3 +170,8 @@
 	interrupt-parent = <&intmux0_ch1>;
 	interrupts = <24>;
 };
+
+&generic_fsk {
+	interrupt-parent = <&intmux0_ch1>;
+	interrupts = <29>;
+};
