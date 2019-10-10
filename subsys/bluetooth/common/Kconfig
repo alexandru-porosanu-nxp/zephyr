@@ -14,7 +14,7 @@ config BT_HAS_HCI_VS
 
 config BT_HCI_VS
 	bool "Zephyr HCI Vendor-Specific Commands"
-	depends on BT_HAS_HCI_VS
+	depends on BT_HAS_HCI_VS_SUPPORT
 	default y
 	help
 	  Enable support for the Zephyr HCI Vendor-Specific Commands in the
